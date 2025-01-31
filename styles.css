@@ -1,1 +1,39 @@
-/*  your css code here. If applicable */
+body {
+    background-color: #f8f8f8; /* Background color for the entire page */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.book-library {
+    background-color: #ffffff; /* Background color for the library container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book {
+    background-color: #ffffff; /* Background color for each book block */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 150px; /* Fixed width for each book block */
+    text-align: center; /* Center align text */
+}
+
+.book img {
+    width: 100%; /* Full width of the book block */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.author {
+    color: #777777; /* Color for author text */
+}
+
+.price {
+    color: #2ecc71; /* Color for price text */
+}
